@@ -21,7 +21,6 @@ const authoJwt = jwt({
     jwksUri: `https://${process.env.DOMAIN_AUTHO}/.well-known/jwks.json`
   }),
   
-  // Validate the audience and the issuer.
   audience: process.env.API_IDENTIFIER_AUTHO,
   issuer: [`https://${process.env.DOMAIN_AUTHO}/`],
   algorithms: ['RS256']
