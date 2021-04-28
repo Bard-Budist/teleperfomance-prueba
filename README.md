@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/44384347/116373914-718df980-a7d3-11eb-9938-ff305f34b65b.png)
+
+
 # Prueba Tecnica Teleperfomance
 
 Resumen de la prueba:
