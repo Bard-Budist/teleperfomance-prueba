@@ -44,3 +44,17 @@ Variables configuradas en el archivo  `.env` en la carpeta root del proyecto
 - URL_MONGO -> Host mongo
 - MONGO_USER -> Usuario MongoDb
 - MONGO_PASSWORD -> Contraseña MongoDb
+
+## Peticiones
+
+### v1
+- /api/v1 -> Retorna informacion de usuarios de una API gratiuta
+
+### v2
+- /api/v2/generate-token -> Retorna el token Auth0
+
+### v3
+- /api/v3 -> Retorna informacion de usuarios de una API gratiuta pero con la diferencia de que necesita autenticacion
+
+### v4
+- /api/v4 -> Retorna nombre de una coleccion en la base de datos en Mongo, tambien necesita autenticacion
