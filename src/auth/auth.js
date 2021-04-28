@@ -3,7 +3,7 @@ const jwksRsa = require('jwks-rsa');
 
 // Struct to resquest when you need a Token for the APIS
 const options = { method: 'POST',
-  url: process.env.API_IDENTIFIER_AUTHO,
+  url: process.env.API_TOKEN_GENERATE,
   headers: { 'content-type': 'application/json' },
   body: `{
     "client_id": "${process.env.CLIENT_ID_AUTHO}",
